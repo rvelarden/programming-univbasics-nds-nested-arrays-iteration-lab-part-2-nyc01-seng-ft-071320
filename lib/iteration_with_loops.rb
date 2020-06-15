@@ -1,17 +1,11 @@
       
   def find_min_in_nested_arrays(src)
-    array_of_daily_temp = []
-    row_index = 0
-      while row_index < src.count do
-        element_index = 0
-        min_temp = 100
-          while element_index < src[row_index].count do
-            if src[row_index][element_index] < min_temp
-              min_temp = src[row_index][element_index]
-            end 
-            element_index += 1
-          end
-           row_index += 1
-        end 
-      end
+   min_array = []
+   count_1 = 0
+while count_1 < src.length do
+    min_array.push(src[count_1].min)
+    count_1 += 1
+end
+min_array
+end
       
