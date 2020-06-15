@@ -10,5 +10,5 @@
               min_temp = src[row_index][element_index]
             end 
           end
-        end
+        
       
