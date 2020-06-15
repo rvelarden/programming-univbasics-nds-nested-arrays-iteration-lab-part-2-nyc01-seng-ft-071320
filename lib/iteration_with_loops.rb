@@ -9,7 +9,9 @@
             if src[row_index][element_index] < min_temp
               min_temp = src[row_index][element_index]
             end 
+            
           end
+           row_index += 1
         end 
       end
       
