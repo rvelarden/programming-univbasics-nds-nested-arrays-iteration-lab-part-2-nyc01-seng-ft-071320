@@ -7,7 +7,7 @@ find_min_in_nested_arrays = src[row_index][element_index]
     element_index = 0
     while element_index < src[row_index].count do
       if src[row_index][element_index][0] == "P"
-         << src[row_index][element_index]
+        find_min_in_nested_arrays << src[row_index][element_index]
         end
       end
       element_index += 1
