@@ -8,3 +8,4 @@
           while element_index < src[row_index].count do
             if src[row_index][element_index] < min_temp
               min_temp = src[row_index][element_index]
+            end 
